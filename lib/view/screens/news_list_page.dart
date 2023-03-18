@@ -31,9 +31,13 @@ class NewsListPage extends StatelessWidget {
     );
   }
 
-  onRefresh(BuildContext context) {}
+  onRefresh(BuildContext context) {
+    print('onRefresh');
+  }
 
-  getKeyword(BuildContext context) {}
+  getKeyword(BuildContext context) {
+    print('getKeyword');
+  }
 
 
 }
